@@ -38,7 +38,7 @@ struct SpriteSheet {
         )
 
         let texture = SKTexture(rect: normalizedRect, in: atlas)
-        texture.filteringMode = .nearest
+        texture.filteringMode = filteringMode
         return texture
     }
 }
